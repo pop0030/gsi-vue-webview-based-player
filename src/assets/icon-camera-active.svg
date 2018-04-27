@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="50px" height="50px" viewBox="0 0 50 50" enable-background="new 0 0 50 50" xml:space="preserve">
+<g>
+	<g>
+		<polygon fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" points="5.473,5.477 13.228,5.477 
+			13.228,4.242 4.234,4.242 4.234,13.234 5.473,13.234 		"/>
+		<path fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" d="M5.473,5.477"/>
+		<polygon fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" points="36.783,4.242 36.783,5.477 
+			44.541,5.477 44.541,13.234 45.777,13.234 45.777,4.242 		"/>
+		<path fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" d="M36.783,4.242"/>
+		<polygon fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" points="5.459,36.76 4.222,36.76 
+			4.222,45.758 13.217,45.758 13.217,44.521 5.459,44.521 		"/>
+		<path fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" d="M5.459,36.76"/>
+		<polygon fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" points="44.529,44.521 36.771,44.521 
+			36.771,45.758 45.766,45.758 45.766,36.76 44.529,36.76 		"/>
+	</g>
+	<g>
+		<path fill="#FFFFFF" d="M7.291,27.153l3.884,3.496c8.234,7.41,20.73,7.41,28.964,0.001l3.885-3.497c0.76-0.684,0.76-1.875,0-2.559
+			l-3.885-3.496c-8.234-7.409-20.73-7.409-28.963,0l-3.885,3.496C6.531,25.278,6.531,26.47,7.291,27.153z M25.656,18.988
+			c1.902,0,3.443,1.542,3.443,3.443s-1.541,3.442-3.443,3.442c-1.901,0-3.442-1.541-3.442-3.442
+			C22.214,20.529,23.755,18.988,25.656,18.988z M13.228,22.254c1.707-1.536,4.106-2.221,6.143-3c-0.243,0.705-0.6,2.391-0.6,3.178
+			c0,3.803,3.083,6.886,6.885,6.886c3.803,0,6.887-3.083,6.887-6.886c0-0.787-0.305-2.317-0.547-3.021
+			c2.037,0.778,4.479,1.755,6.188,3.291l3.938,3.424l-3.531,3.348c-6.924,6.231-18.919,6.263-25.844,0.031l-3.875-3.63
+			L13.228,22.254z"/>
+		<circle fill="#FFFFFF" cx="25.63" cy="22.701" r="4.759"/>
+	</g>
+</g>
+</svg>
