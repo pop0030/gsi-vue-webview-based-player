@@ -22,9 +22,9 @@
   		methods: {
             btnClick() {
                 if(this.$route.meta.showMenu){
-                    this.toggleMenu()
+                    // this.toggleMenu()
                 } else {
-                    this.back()
+                    // this.back()
                 }
             },
   			toggleMenu() {
@@ -57,7 +57,7 @@
 	justify-content: center;
 	align-items: center;
 	color:#FFF;
-  z-index: 2;
+  	z-index: 2;
 }
 
 #head>a{
