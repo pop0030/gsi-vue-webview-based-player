@@ -68,6 +68,8 @@ body{
 	color: #2c3e50;
 	height: 100%;
 	background-color: #2b2b2b;
+	max-width: 414px;
+	margin: 0 auto;
 }
 .mainView{
 	padding-top: 3rem;
