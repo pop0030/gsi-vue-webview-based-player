@@ -11,19 +11,13 @@ webpackJsonp([0],[
 
 
 
-var init = localStorage.getItem('init');
-
-if (!init || init < 0) {
-    init = true;
-    localStorage.setItem('init', -1);
-} else {
-    init = false;
-}
+var initStatus = localStorage.getItem('init');
 
 __WEBPACK_IMPORTED_MODULE_0_vue__["a" /* default */].use(__WEBPACK_IMPORTED_MODULE_1_vuex__["d" /* default */]);
 
 var state = {
-    init: init,
+    // init: (!initStatus || init < 0 ),
+    init: false,
     mask: false,
     isMenu: false,
     isLoading: false,
@@ -103,13 +97,11 @@ var mutations = {
         if (data) {
             state.user = data;
             state.isLogin = true;
-            console.log('[Vuex]會員資料寫入');
         }
     },
     clearUser: function clearUser(state) {
         state.user = {};
         state.isLogin = false;
-        console.log('[Vuex]會員資料清除');
     }
 };
 
@@ -700,6 +692,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_vuex__ = __webpack_require__(6);
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
+//
+//
 //
 //
 //
@@ -2430,9 +2424,13 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     attrs: {
       "id": "app"
     }
+  }, [_c('topHead'), _vm._v(" "), _c('div', {
+    attrs: {
+      "id": "main"
+    }
   }, [_c('router-view', {
     staticClass: "mainView"
-  }), _vm._v(" "), _c('topHead'), _vm._v(" "), _c('bottomNav'), _vm._v(" "), _c('transition', {
+  })], 1), _vm._v(" "), _c('bottomNav'), _vm._v(" "), _c('transition', {
     attrs: {
       "name": "mask"
     }
@@ -2537,9 +2535,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     attrs: {
       "id": "bookcase"
     }
-  }, [_c('router-view', {
-    staticClass: "bkc-view"
-  }), _vm._v(" "), _c('div', {
+  }, [_c('div', {
     staticClass: "bkc-nav",
     attrs: {
       "data-name": _vm.bkcName
@@ -2552,7 +2548,9 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     attrs: {
       "to": "/bookcase/watch"
     }
-  }, [_vm._v("觀看記錄")])], 1)], 1)
+  }, [_vm._v("觀看記錄")])], 1), _vm._v(" "), _c('router-view', {
+    staticClass: "bkc-view"
+  })], 1)
 },staticRenderFns: []}
 
 /***/ }),
@@ -2761,4 +2759,4 @@ webpackContext.id = 130;
 
 /***/ })
 ],[55]);
-//# sourceMappingURL=app.221bec4e9642667ce98d.js.map
+//# sourceMappingURL=app.5f7df6474811ac53e781.js.map
