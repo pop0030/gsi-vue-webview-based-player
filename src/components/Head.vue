@@ -47,12 +47,9 @@
 
 <style scope>
 #head{
-	position: fixed;
 	width: 100%;
-	top: 0;
-	left: 0;
+	flex: 0 0 3rem;
 	background-color: #1A1A1A;
-	height: 3rem;
 	display: flex;
 	justify-content: center;
 	align-items: center;

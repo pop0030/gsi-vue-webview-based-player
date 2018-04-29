@@ -38,9 +38,7 @@
 <style scope>
 #nav{
 	width: 100%;
-	position: fixed;
-	bottom: 0;
-	left: 0;
+	flex: 0 0 3.5rem;
 	box-sizing: border-box;
 	background-color: #333;
 	height: 3.5rem;

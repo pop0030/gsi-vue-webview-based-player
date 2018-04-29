@@ -1,10 +1,10 @@
 <template>
 	<div id="bookcase">
-		<router-view class="bkc-view"></router-view>
 		<div class="bkc-nav" :data-name="bkcName">
 			<router-link to="/bookcase">購買記錄</router-link>
 			<router-link to="/bookcase/watch">觀看記錄</router-link>
 		</div>
+		<router-view class="bkc-view"></router-view>
 	</div>
 </template>
 
@@ -79,7 +79,6 @@ export default {
 	}
 	.bkc-nav{
 		background-color: #FFF;
-		position: fixed;
 		top: 3rem;
 		left: 0;
 		width: 100%;

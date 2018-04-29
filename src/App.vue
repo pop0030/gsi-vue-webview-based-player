@@ -1,7 +1,9 @@
 <template>
   	<div id="app">
-		<router-view class="mainView"></router-view>
   		<topHead></topHead>
+		<div id="main">
+			<router-view class="mainView"></router-view>
+		</div>
 		<bottomNav></bottomNav>
 		<transition name="mask">
 			<div v-show="mask" class="mask" @click="clickMask('off')"></div>
@@ -69,13 +71,21 @@ body{
 	height: 100%;
 	background-color: #2b2b2b;
 	max-width: 414px;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
 	margin: 0 auto;
+	position: relative;
 }
+
+#main {
+	overflow-x: hidden;
+	overflow-y: auto;
+	flex: 1 1 auto;
+}
+
 .mainView{
-	padding-top: 3rem;
-	padding-bottom: 4rem;
 	width: 100%;
-	min-height: 100vh;
 	box-sizing: border-box;
 }
 .svg-icon{
