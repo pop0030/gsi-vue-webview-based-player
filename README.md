@@ -1,6 +1,6 @@
 # Gsi webapp player
 
-[Demo](#)
+[Demo](https://pop0030.github.io/vue-webview-based-player/#/)
 
 ## Build Setup
 
